@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/style.css">
+    <title>Linear Regression</title>
+</head>
+<body>
+    <div class="center">
+        <h1>Homeprices Prediction</h1>
+        <form action="/sub" method="POST">
+          <div class="inputbox">
+            <input type="text" name ="area" required="required">
+            <span>Area</span>
+          </div>
+          <div class="inputbox">
+            <input type="text" name ="bedrooms" required="required">
+            <span>no of bedrooms</span>
+          </div>
+          <div class="inputbox">
+            <input type="text" name ="age" required="required">
+            <span>Age</span>
+          </div>
+          <div class="inputbox">
+            <button type="submit" class="submit1">Predict</button>
+          </div>
+        </form>
+      </div>
+</body>
+</html>
